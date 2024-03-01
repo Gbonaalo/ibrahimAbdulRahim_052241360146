@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style_css.css">
+</head>
+<body>
+    <header class="header">  
+        <div class="header__hero section--max-width"> 
+            <div class="header__hero--info"> 
+                <h2>Computer Science Department</h2>  
+            </div> 
+        </div> 
+        <button><a href="faculty.html"><--back</a></button>
+    </header> 
+
+
+
+
+    <div class="nav-link">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="#">About</a>
+                <div class="dropdown-content">
+                    <ul>
+                        <li><a href="#"> Welcome message</a></li>
+                        <li><a href="#">Strategic Mandate,Vision Mession and Core Value </Facultya></li>
+                        <li><a href="#">Administration</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li class="dropdown">
+                <a href="#">Faculties</a>
+                <div class="dropdown-content">
+                    <ul>
+                       
+                        <li><a href="faculty.html">Faculty of Apllied science and technology</a></li>
+                        <li><a href="#">faculty of Mechanical and Chemical Engineeriny</a></li>
+                        <li><a href="#">Faculty of food</a></li>
+                        <li><a href="#"></a>Faculty civil And Geo Engineering </li>
+                    </ul> 
+                </div>   
+            </li>
+            <li class="dropdown">
+                <a href="#">Accademics</a>
+                <div class="dropdown-content">
+                    <ul>
+                        <li><a href="faculty.html">Faculty of Applied Science and Technology</a></li>
+                        <li><a href="#">Faculty of Mechanical and Chemical Engineering</a></li>
+                        <li><a href="#">Faculty of Food</a></li>
+                        <li><a href="#">Faculty of Civil and Geo Engineering</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="payment.html">Payment</a></li>
+            <li><a href="registration.html">Registration</a></li>
+            <li><a href="Timestable.html">News & Events</a></li>
+            <li><a href="#">Research and collaborations</a></li>
+            <li><a href="#">Staff Directories</a></li>
+            <li><a href="#">GESA</a></li>
+            <li class="dropdown">
+                <button>Menu</button>
+                <div class="dropdown-content">
+                    <ul>
+                       
+                        <li>
+                                <a href="#" class="active-trail">Admissions</a>
+                                <ul>
+                                        <li><a href="#">Undergraduate</a></li>
+                                        <li><a href="#">Graduate</a></li>
+                                        <li><a href="#">Continuing education</a></li>
+                                </ul>
+                        </li>
+                        <li>  
+                                <a href="#">Research</a>
+                                <ul>
+                                        <li><a href="#">Engage with us</a></li>
+                                        <li><a href="#">Support for researchers</a></li>
+                                        <li><a href="#">Using research to engage</a></li>
+                                        <li"><a href="#">Recognition</a></li>
+                                </ul>
+                        </li>
+                        
+                        <li>
+                                <a href="#">About</a>
+                                <ul>
+                                        <li><a href="#">Organisation</a></li>
+                                        <li><a href="#">Vice-Chancellor</a></li>
+                                        <li><a href="#">Facts and figures</a></li>
+                                        <li><a href="#">Services people</a></li>
+                                        <li><a href="#">Services Access</a><oxford/li>
+                                        <li><a href="#">International Services</a></li>
+                                        <li><a href="#">Building Our Future</a></li>
+                                        <li><a href="#" title="">Jobs</a></li>
+                                </ul>
+                        </li>
+                        <button>APPLY NOW</button>
+                    </ul>
+                </div>
+            </li>    
+            
+        </ul>  
+     </div>
+     <object data="Timestable.xlsx" type="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" width="100%" height="600px">
+        <p>Your browser does not support viewing Excel files. You can <a href="Timestable.xlsx">download the spreadsheet</a> instead.</p>
+    </object>
+    
+     <footer id="page-footer" class="page-level page-footer">
+        <div class="wrapper">
+           
+            <div>
+                <div class="sitemap-item">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li><a href="#">Any questions?</a></li>
+                        <li><a href="#">Jobs and vacancies</a></li>
+                        <li><a href="#">Term dates</a></li>
+                        <li><a href="#">Map</a></li>
+                        <li><a href="#">Nexus365 email</a></li>
+                        <li><a href="#">Giving to Services</a></li>
+                    </ul>
+                </div>
+            </div>
+          
+        </div>
+
+    </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const topics = document.querySelectorAll(".topic-title");
+            topics.forEach(topic => {
+                topic.addEventListener("click", function() {
+                    this.nextElementSibling.classList.toggle("show");
+                });
+            });
+        });
+    </script>
+</body>
+</html>
